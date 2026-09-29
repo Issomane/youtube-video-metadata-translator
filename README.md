@@ -4,7 +4,7 @@
 
 Transform your channel into a multilingual powerhouse in minutes, not hours. This tool automates the tedious process of manually translating video metadata, helping you expand your reach and improve your YouTube SEO without creating new content.
 
-![YouTube Video Translator Demo](https://img.shields.io/badge/Python-3.7+-blue.svg) ![Flask](https://img.shields.io/badge/Flask-Web%20App-green.svg) ![YouTube API](https://img.shields.io/badge/YouTube-API%20v3-red.svg)
+![YouTube Video Translator Demo](https://img.shields.io/badge/Python-3.12+-blue.svg) ![Flask](https://img.shields.io/badge/Flask-Web%20App-green.svg) ![YouTube API](https://img.shields.io/badge/YouTube-API%20v3-red.svg)
 
 ## 🚀 Why This Matters
 
@@ -44,7 +44,7 @@ Transform your channel into a multilingual powerhouse in minutes, not hours. Thi
 ## 🛠️ Quick Start
 
 ### Prerequisites
-- Python 3.7+ 
+- Python 3.12+ 
 - A YouTube channel
 - Google Cloud account (for APIs)
 - *(Optional)* DeepL account for premium translations
