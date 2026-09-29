@@ -54,7 +54,7 @@ Transform your channel into a multilingual powerhouse in minutes, not hours. Thi
 ```bash
 # Clone the repository
 git clone https://github.com/issomane/youtube-video-metadata-translator.git
-cd youtube-metadata-translator
+cd youtube-video-metadata-translator
 
 # Install dependencies
 pip install -r requirements.txt
@@ -114,7 +114,7 @@ On first run, you'll be redirected to Google OAuth to authorize YouTube access. 
 ## 📁 Project Structure
 
 ```
-youtube-metadata-translator/
+youtube-video-metadata-translator/
 ├── app.py                           # Main Flask application
 ├── youtube_account.py               # YouTube API integration
 ├── google_translate.py              # Translation API wrapper
@@ -207,4 +207,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Ready to go global?** ⭐ Star this repo if it helped you reach new audiences!
 
-[🐛 Report Bug](https://github.com/Issomane/youtube-metadata-translator/issues) | [💡 Request Feature](https://github.com/Issomane/youtube-metadata-translator/issues) | [💬 Discussions](https://github.com/Issomane/youtube-metadata-translator/discussions)
+[🐛 Report Bug](https://github.com/Issomane/youtube-video-metadata-translator/issues) | [💡 Request Feature](https://github.com/Issomane/youtube-video-metadata-translator/issues) | [💬 Discussions](https://github.com/Issomane/youtube-video-metadata-translator/discussions)
