@@ -56,6 +56,10 @@ Transform your channel into a multilingual powerhouse in minutes, not hours. Thi
 git clone https://github.com/issomane/youtube-video-metadata-translator.git
 cd youtube-video-metadata-translator
 
+# Create a Python virtual environment (helps in avoiding requirements version compatibility issues)
+python -m venv .venv
+.\venv\activate
+
 # Install dependencies
 pip install -r requirements.txt
 
@@ -75,8 +79,11 @@ mkdir config
 
 #### Google Translate API (Required)
 1. In the same Google Cloud project, enable **Cloud Translation API**
-2. Create a **Service Account** with Translation API permissions
+2. Create a **Service Account** with Translation API permissions.  User level permissions should be sufficient.
 3. Generate and download a JSON key file
+  3.1  Once the Service Account has been created, click to open it
+  3.2  Go to **Keys**
+  3.3  Click **Add key**>**New key**     
 4. Rename to `translate_key.json` and **place in the `config/` folder**
 
 #### DeepL API (Optional)
