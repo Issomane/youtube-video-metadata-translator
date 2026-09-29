@@ -58,7 +58,7 @@ cd youtube-video-metadata-translator
 
 # Create a Python virtual environment (helps in avoiding requirements version compatibility issues)
 python -m venv .venv
-.\venv\activate
+.\.venv\Scripts\activate (Windows)
 
 # Install dependencies
 pip install -r requirements.txt
