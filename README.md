@@ -77,6 +77,17 @@ mkdir config
 5. Download the JSON file and rename it to `account_client_secrets_main.json`
 6. **Place the file in the `config/` folder you created**
 
+#### Whitelist the correct redirect URI
+1. Browse to the [Google Auth Platform Client management](https://console.cloud.google.com/auth/clients)
+2. Under **Authorized redirect URIs** add exactly: ``http://localhost:8080/``
+3. Click **Save**
+
+#### Whitelist the email address of the YouTube account
+Since the app is not a Production app, we need to add test users. 
+1. Browse to the [Google Auth Platform Audience management](https://console.cloud.google.com/auth/audience)
+2. Under **Test users** click **Add users**
+3. Add the e-mail address of the YouTube account you are managing.
+
 #### Google Translate API (Required)
 1. In the same Google Cloud project, enable **Cloud Translation API**
 2. Create a **Service Account** with Translation API permissions.  User level permissions should be sufficient.
