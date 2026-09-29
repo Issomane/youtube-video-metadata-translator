@@ -53,7 +53,7 @@ Transform your channel into a multilingual powerhouse in minutes, not hours. Thi
 
 ```bash
 # Clone the repository
-git clone https://github.com/issomane/youtube-metadata-translator.git
+git clone https://github.com/issomane/youtube-video-metadata-translator.git
 cd youtube-metadata-translator
 
 # Install dependencies
