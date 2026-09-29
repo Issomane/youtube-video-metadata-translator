@@ -53,7 +53,7 @@ Transform your channel into a multilingual powerhouse in minutes, not hours. Thi
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/youtube-metadata-translator.git
+git clone https://github.com/issomane/youtube-metadata-translator.git
 cd youtube-metadata-translator
 
 # Install dependencies
@@ -207,4 +207,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Ready to go global?** ⭐ Star this repo if it helped you reach new audiences!
 
-[🐛 Report Bug](https://github.com/yourusername/youtube-metadata-translator/issues) | [💡 Request Feature](https://github.com/yourusername/youtube-metadata-translator/issues) | [💬 Discussions](https://github.com/yourusername/youtube-metadata-translator/discussions)
+[🐛 Report Bug](https://github.com/Issomane/youtube-metadata-translator/issues) | [💡 Request Feature](https://github.com/Issomane/youtube-metadata-translator/issues) | [💬 Discussions](https://github.com/Issomane/youtube-metadata-translator/discussions)
